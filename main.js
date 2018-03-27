@@ -4,7 +4,7 @@ var app = new Vue({
     data: {
         inputText: '',
         liste: [],
-        isLoading: true
+        isLoading: false
     },
 
     methods: {
@@ -21,12 +21,12 @@ var app = new Vue({
     },
 
     created() {
-        const url = 'http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC';
+      /*  const url = 'http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC';
         fetch(url).then((res) => { return res.json() })
             .then((res) => { this.liste = res.data })
         this.isLoading = false;
 
-
+        */
     }
 
 
