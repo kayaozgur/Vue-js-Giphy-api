@@ -34,10 +34,10 @@
 <body>
     <div id="app">
         <div class="form">
-            <form class="search">
-                <input class="input"type="text" v-model="inputText"/>
+           
+                <input class="input"type="text" v-model="inputText" @keypress.enter="ara"/>
                 <input class="buton" type="button" value="Ara" v-on:click="ara"/>
-            </form>
+           
             <p v-if="isLoading">Yükleniyor.....</p>
         </div>
 
