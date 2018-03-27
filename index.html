@@ -37,9 +37,9 @@
                 <h1>Gif Arama</h1>
                 <input class="input"type="text" v-model="inputText" @keypress.enter="ara"/>
                 <input class="buton" type="button" value="Ara" :disabled="!inputText" v-on:click="ara"/>
-           
+                
+            </div>
             <p v-if="isLoading">Yükleniyor.....</p>
-        </div>
 
         <div class="container" v-for="item in liste">
             <img :src="item.images.fixed_height.url" />
