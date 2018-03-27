@@ -14,11 +14,32 @@
             float: left;
             margin: 20px;
         }
+        .input {
+    padding: 10px 20px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    width: 400px;
+  }
+  .buton {
+    padding: 5px 15px;
+    border: 1px solid #CCC;
+    background-color: #4183c4;
+    color: #FFF;
+    font-size: 16px;
+    border-radius: 5px;
+  }
     </style>
 </head>
 
 <body>
     <div id="app">
+        <div class="form">
+            <form class="search">
+                <input class="input"type="text" v-model="inputText"/>
+                <input class="buton" type="button" value="Ara" v-on:click="ara"/>
+            </form>
+            <p v-if="isLoading">Yükleniyor.....</p>
+        </div>
 
         <div class="container" v-for="item in liste">
             <img :src="item.images.fixed_height.url" />
