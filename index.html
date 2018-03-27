@@ -36,7 +36,7 @@
         <div class="form">
                 <h1>Gif Arama</h1>
                 <input class="input"type="text" v-model="inputText" @keypress.enter="ara"/>
-                <input class="buton" type="button" value="Ara" v-on:click="ara"/>
+                <input class="buton" type="button" value="Ara" :disabled="!inputText" v-on:click="ara"/>
            
             <p v-if="isLoading">Yükleniyor.....</p>
         </div>
