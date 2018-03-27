@@ -16,6 +16,7 @@ var app = new Vue({
             fetch(url).then((res) => { return res.json() })
                 .then((res) => { this.liste = res.data })
             this.isLoading = false;
+            this.inputText='';
         }
     },
 
