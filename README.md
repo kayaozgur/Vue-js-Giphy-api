@@ -1,4 +1,4 @@
 # Vue-js-Giphy-api
 ---
-[Fatih Acet](https://github.com/fatihacet) 'in youtube videosundan 
+[Fatih Acet](https://github.com/fatihacet) 'in Youtube videosundan 
 
