@@ -1,4 +1,4 @@
 # Vue-js-Giphy-api
 ---
-[Fatih Acet](https://github.com/fatihacet) 'in Youtube videosundan 
+**Kaynak :**[Fatih Acet](https://github.com/fatihacet) 'in Youtube kanalındaki [https://www.youtube.com/playlist?list=PLa3NvhdFWNipwk1KXeUpVQnAiAfuBw4El](VueJs Türkçe eğitim videoları)
 
